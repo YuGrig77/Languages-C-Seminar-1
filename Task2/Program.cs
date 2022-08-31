@@ -5,7 +5,7 @@
 
 Console.Clear();
 
-Console.WriteLine("Enter day's number: ");
+Console.WriteLine("Enter Week's day number: ");
 int day = int.Parse(Console.ReadLine());
 
 if(day == 1) Console.Write("It is Monday");
