@@ -20,7 +20,7 @@ if(day > 7) Console.WriteLine("Come on, it's a week!");
 //else {Console.WriteLine("Come on, it's a week!")};
 
 //Через массив:
-//string[] days = {"Понедельник, "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"};
+//string[] days = {"Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"};
 //Console.WriteLine("Введите номер дня недели (от 1 до 7)");
 //int num = int.Parse(Console.ReadLine());
 //
