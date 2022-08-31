@@ -6,3 +6,17 @@
 //a = -3 b = 9 -> нет
 
 Console.Clear();
+
+Console.WriteLine("Enter first number: ");
+int a = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter second number: ");
+int b = int.Parse(Console.ReadLine());
+
+if (a == b * b)
+{
+    Console.WriteLine($"Yes - {a} is e square of {b}");
+}
+else
+{
+    Console.WriteLine($"No - {a} is not square of {b}");
+}
