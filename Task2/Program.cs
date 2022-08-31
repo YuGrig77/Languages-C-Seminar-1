@@ -16,3 +16,5 @@ if(day == 5) Console.Write("It is Friday");
 if(day == 6) Console.Write("It is Saturday");
 if(day == 7) Console.Write("It is Sunday");
 if(day > 7) Console.WriteLine("Come on, it's a week!");
+// or last line could be
+//else {Console.WriteLine("Come on, it's a week!");}
