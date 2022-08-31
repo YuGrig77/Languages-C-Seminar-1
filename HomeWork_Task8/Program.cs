@@ -8,11 +8,31 @@ Console.Clear();
 Console.Write("Enter number: ");
 int a = int.Parse(Console.ReadLine());
 
-for (int n = 2; n <= a; n += 2)
+int n = 1;
+
+while (n <= a)
 {
-    Console.Write($"{n}, ");
+    if (n % 2 == 0)
+    {
+        Console.Write($"{n}, ");
+        n++;
+    }
+    else
+    {
+        n++;
+    }
 }
-    
+
+// or second version:
+
+//Console.Write("Enter number: ");
+//int a = int.Parse(Console.ReadLine());
+//
+//for (int n = 2; n <= a; n += 2)
+//{
+//    Console.Write($"{n}, ");
+//}
+
 
 
 
