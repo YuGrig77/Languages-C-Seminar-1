@@ -14,7 +14,6 @@ int b = int.Parse(num[1]);
 int c = int.Parse(num[2]);
 int max = a;
 
-if (a > max) max = a;
 if (b > max) max = b;
 if (c > max) max = c;
 
