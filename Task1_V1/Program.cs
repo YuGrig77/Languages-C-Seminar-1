@@ -7,16 +7,16 @@
 
 Console.Clear();
 
-Console.WriteLine("Enter first number: ");
-int a = int.Parse(Console.ReadLine());
-Console.WriteLine("Enter second number: ");
-int b = int.Parse(Console.ReadLine());
+Console.Write("Entrer two numbers: ");
+string[] num = Console.ReadLine().Split(' ');
+int a = int.Parse(num[0]);
+int b = int.Parse(num[1]);
 
 if (a == b * b)
 {
-    Console.WriteLine($"Yes - {a} is e square of {b}");
+   Console.WriteLine($"Yes - {a} is e square of {b}");
 }
 else
 {
-    Console.WriteLine($"No - {a} is not square of {b}");
+   Console.WriteLine($"No - {a} is not square of {b}");
 }
